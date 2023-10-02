@@ -1,0 +1,55 @@
+.controlButtons {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.mainContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+.todoItem {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.checkboxTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.controlButtons svg {
+  margin-top: 10px;
+  color: #424242;
+}
+.todoTitle {
+  margin: 0;
+  margin-left: 0.5rem;
+  width: 200px;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.done {
+  opacity: 0.4;
+}
+.todoItemsContainer {
+  margin-top: 1rem;
+}
+.todoInputFormContainer {
+  margin-top: 2rem;
+}
+.todoInput {
+  height: 40px;
+}
+.todoInputAddBtn {
+  background-color: #424242;
+  border: none;
+  height: 40px;
+  width: 100px;
+  color: white;
+}
+.title {
+  font-weight: 100;
+  letter-spacing: -1px;
+}
